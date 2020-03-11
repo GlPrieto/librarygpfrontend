@@ -94,7 +94,7 @@
       </span>
     </div>
   </Link>
-
+Tras varias pruebas acabé usando el repositorio tiendafrontend, pues no me iba con el mío propio.
 </div>
   <p>
   <small>
