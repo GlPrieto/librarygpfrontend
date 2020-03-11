@@ -24,7 +24,7 @@
     border: 1px solid #000;
     border-radius: 4px;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.19);
-    border: 1px solid rgb(34, 57, 88);
+    border: 1px solid rgb(245, 177, 31);
     border-radius: 4px;
   }
 
@@ -38,7 +38,7 @@
     font-family: sans-serif;
     color: #3b4151;
     border-radius: 4px;
-    background: #c9defd;
+    background: #fdebc9;
     min-width: 140px;
     padding: 10px;
   }
@@ -53,7 +53,6 @@
     padding-left: 10px;
   }
 </style>
-
 <h1>Biblioteca GP</h1>
 <p>
   <small>

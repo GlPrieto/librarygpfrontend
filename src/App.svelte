@@ -1,10 +1,9 @@
 <script>
   import { setContext } from "svelte";
-  import { Router } from "svelte-routing";
-  import { writable } from "svelte/store";
-  import Contenido from "./Contenido.svelte";
-  import Nav from "./Nav.svelte";
-
+  import { Router }     from "svelte-routing";
+  import Nav            from "./Nav.svelte";
+  import Contenido      from "./Contenido.svelte";
+  
   const URL = {
     autores: " https://librarygpbackend.herokuapp.com/api/autores/",
     obras:  " https://librarygpbackend.herokuapp.com/api/obras/"
@@ -14,16 +13,34 @@
 </script>
 
 <style>
-  :global(.inversed) {
-    filter: brightness(0) invert(1);
+  @import url("https://fonts.googleapis.com/css?family=Aclonica");
+
+  :global(body) {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: "Aclonica";
+    font-display: swap;     /* Para mejorar rendimiento en carga inicial */
   }
 
-  :global(.nav-link a){
-    color: white;
+  :global(*) {
+    margin: 0;
+    padding: 0;
   }
 
-  :global(.nav-link a:hover){
-    color: lightgray;
+  :global(a:hover) {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  :global(div#OK, div#KO) {
+    display: none;
+    position: fixed;
+    top: 60px;
+    right: 0px;
+    font-size: 60px;
+    background-color: transparent;
   }
 </style>
 
@@ -31,3 +48,5 @@
   <Nav />
   <Contenido />
 </Router>
+<div id="OK">😊</div>
+<div id="KO">😟</div>

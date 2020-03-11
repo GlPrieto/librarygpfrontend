@@ -9,6 +9,7 @@
     font-weight: bold;
   }
   .card {
+    background-color: #fdebc9;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     transition: 0.3s;
@@ -21,22 +22,24 @@
   }
 
   input {
-    background-color: rgba(252, 252, 252, 0.925);
+    background-color: inherit;
     padding: 10px;
     font-size: 14px;
     color: black;
-    border: 0.5 gray;
+    border: 0;
     outline: none;
     margin-left: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
+    max-width: 140px;
   }
-    input:focus {
-    background-color: rgb(179, 230, 245);
+
+  input:focus {
+    background-color: wheat;
   }
 
   input:required:invalid,
   input:focus:invalid {
-    background-color: rgb(255, 182, 182);
+    background-color: lightpink;
   }
 </style>
   <div class="card" on:click>

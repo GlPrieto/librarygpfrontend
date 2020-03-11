@@ -3,7 +3,7 @@
   import { jsonData }            from "./store.js";
 
   export let tipo = "insertar"; // insertar, modificar, eliminar
-  export let coleccion = "articulos"; // articulos, clientes
+  export let coleccion = "autores"; // articulos, clientes
   export let documento = {};
   
  
@@ -105,25 +105,29 @@
 
   /* Botón para insertar */
   .btn-insertar {
-    border: 1px solid #0042a6;
-    color: #001ea6;
-    background-color: rgb(144, 203, 238);
+    border: 1px solid #13a600;
+    color: #13a600;
+    background-color: lightgreen;
   }
-
+  .btn-insertar::before {
+    content: "✏️";
+  }
   .btn-insertar::after {
     content: " Insertar";
   }
   .btn-insertar:hover {
-    background: #c1fdff;
+    background: #c1ffc9;
   }
 
   /* Botón para modificar */
   .btn-modificar {
-    border: 1px solid #003aa6;
-    color: #007fa6;
-    background-color: rgb(173, 214, 230);
+    border: 1px solid #0085a6;
+    color: #0085a6;
+    background-color: lightblue;
   }
-
+  .btn-modificar::before {
+    content: "📝";
+  }
   .btn-modificar::after {
     content: " Modificar";
   }
@@ -133,15 +137,18 @@
 
   /* Botón para eliminar */
   .btn-eliminar {
-    border: 1px solid #000263;
-    color: #0003ad;
-    background-color: #6a6cff;
+    border: 1px solid #ec0115;
+    color: #ec0115;
+    background-color: lightsalmon;
+  }
+  .btn-eliminar::before {
+    content: "❌";
   }
   .btn-eliminar::after {
     content: " Eliminar";
   }
   .btn-eliminar:hover {
-    background: #c5bfff;
+    background: #ffc1bf;
   }
 
   @media (max-width: 500px) {

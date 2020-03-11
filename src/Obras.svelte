@@ -5,7 +5,7 @@
   import Buscar                  from "./Buscar.svelte";
   import Obra                from "./Obra.svelte";
   import Boton                   from "./Boton.svelte";
-
+  
   const URL = getContext("URL");
 
   let busqueda = "";
@@ -31,7 +31,6 @@
     align-items: center;
     justify-content: left;
     flex-wrap: wrap;
-    padding: 15px 0px;
   }
 </style>
 

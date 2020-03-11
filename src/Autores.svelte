@@ -24,6 +24,7 @@
 
 </script>
 
+
 <style>
   .container {
     display: flex;
@@ -31,7 +32,6 @@
     align-items: center;
     justify-content: left;
     flex-wrap: wrap;
-    padding: 15px 0px;
   }
 </style>
 
