@@ -101,8 +101,8 @@
   <small>
     <b>
       Código fuente en
-      <a href="https://github.com/GlPrieto/LibraryFrontend">
-        https://github.com/GlPrieto/LibraryFrontend
+      <a href="https://github.com/GlPrieto/librarygpfrontend">
+        https://github.com/GlPrieto/librarygpfrontend
       </a>
     </b>
   </small>
