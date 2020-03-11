@@ -97,10 +97,30 @@
   </Link>
 
 </div>
-<p>
+  <p>
   <small>
     <b>
-      Código fuente en
+      Código fuente de la aplicación de ejemplo en
+      <a href="https://github.com/jamj2000/tiendafrontend">
+        https://github.com/jamj2000/tiendafrontend
+      </a>
+    </b>
+  </small>
+</p>
+  <p>
+  <small>
+    <b>
+      Código fuente de DevPC en
+      <a href="https://github.com/Kibrands/devpc">
+        https://github.com/Kibrands/devpc
+      </a>
+    </b>
+  </small>
+</p>
+  <p>
+  <small>
+    <b>
+      Código fuente de esta aplicación en
       <a href="https://github.com/GlPrieto/librarygpfrontend">
         https://github.com/GlPrieto/librarygpfrontend
       </a>
