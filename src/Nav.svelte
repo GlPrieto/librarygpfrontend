@@ -79,10 +79,10 @@
       content: "Inicio";
     }
     .autores::after {
-      content: "Artículos";
+      content: "Autores";
     }
     .obras::after {
-      content: "Clientes";
+      content: "Obras";
     }
   }
   /* PC */
@@ -105,17 +105,17 @@
   <ul class="menu">
     <li class="logo">
       <Link to="/">
-        <span class="inicio">Inicio</span>
+        <span class="inicio"></span>
       </Link>
     </li>
     <li class="item active">
       <Link to="/autores">
-        <span class="autores">Autores</span>
+        <span class="autores"></span>
       </Link>
     </li>
     <li class="item active">
       <Link to="/obras">
-        <span class="obras">Obras</span>
+        <span class="obras"></span>
       </Link>
     </li>
   </ul>
